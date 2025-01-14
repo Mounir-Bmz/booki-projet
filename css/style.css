@@ -63,7 +63,6 @@ a {
 header {
     background-color: #FFFFFF;
     border-bottom: 1px solid #F2F2F2;
-    padding: 20px 50px;
 }
 
 .header-container {
@@ -73,8 +72,9 @@ header {
 }
 
 .logo img {
-    max-width: 100px; 
-    height: auto; /* Maintenez les proportions */
+    max-width: 4rem;
+    height: auto;
+    padding: 1rem 0;
 }
 
 .nav-menu ul {
@@ -98,81 +98,38 @@ header {
     text-decoration: underline;
 }
 
-/****** Section de recherche ***********/
-.search-section {
-    text-align: center;
-    margin-top: 20px; /* Espacement avec le header */
+/* Search-bar Section */
+
+.search {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
 }
 
-.search-section h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
+.search-title {
+    font-size: 1.5rem;
     font-weight: 700;
-    color: #000000;
-    margin-bottom: 10px;
+    color: var(--black);
+    margin: 0;
 }
 
-.search-section p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+.search-subtitle {
+    font-size: 1.1rem;
     color: #555555;
-    margin-bottom: 20px;
+    margin: 0.7rem 0 0 0;
 }
 
-.search-section form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px; /* Espacement entre le champ et le bouton */
-    margin-bottom: 20px;
+.search-info {
+    font-size: 1rem;
+    color: #777777;
 }
 
-.search-section input {
-    width: 300px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #CCCCCC;
-    border-radius: 5px;
-    box-sizing: border-box;
+.search-info-icon {
+    color: var(--main-color);
+    margin-right: 5px;
 }
 
-.search-section button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: var(--main-color);
-    color: #FFFFFF;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: 'Raleway', sans-serif;
-}
-
-.search-section button:hover {
-    background-color: #004CB2;
-}
-
-/****** Filtres ***********/
-.filters {
-    display: flex;
-    justify-content: center;
-    gap: 15px; /* Espacement entre les boutons */
-}
-
-.filters button {
-    padding: 8px 15px;
-    font-size: 14px;
-    background-color: var(--filter-bg-color);
-    color: #000000;
-    border: none;
-    border-radius: 20px;
-    font-family: 'Raleway', sans-serif;
-    cursor: pointer;
-}
-
-.filters button:hover {
-    background-color: var(--main-color);
-    color: #FFFFFF;
-}
+/* Filter-bar Section */
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
