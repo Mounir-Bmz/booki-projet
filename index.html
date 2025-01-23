@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
@@ -46,7 +48,15 @@
                 </div>
 
                 <div class="search-bar">
-                
+                    <form class="search-bar-form" action="" method="GET">
+                        <span class="search-bar-form-icon">
+                          <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                        </span>
+                        <input class="search-bar-form-search-input" type="search" name="search" placeholder="Marseille, France" size="1">
+                        <button class="search-bar-form-submit-input" type="submit">
+                          <span class="search-bar-form-submit-input-text">Rechercher</span>
+                        </button>
+                    </form>
                 </div>
 
                 <p class="search-info" tabindex="0">
