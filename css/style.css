@@ -23,6 +23,9 @@ body {
 
 
 
+
+
+
 /************ SEARCH-BAR SECTION **************/
 
 .search {
@@ -55,6 +58,10 @@ body {
 }
 
 /****************************/
+
+
+
+
 
 
 
@@ -123,6 +130,7 @@ body {
     display: inline-block;
 }
 
+
 /****************************/
 
 
@@ -171,6 +179,8 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
+
+
 
 
 
@@ -252,13 +262,54 @@ header {
 
 
 
+/****** FILTER-BAR SECTION **************/
 
+.filters {
+    margin: 1rem 0;
+}
 
+.search-filters {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
 
+.search-filters-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
 
+.search-filters-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 2px solid #ccc;
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-filters-btn i {
+    color: #0065FC;
+    font-size: 1.2rem;
+}
+
+.search-filters-btn:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.search-filters-btn.active {
+    background-color: var(--filter-bg-color);
+    border-color: var(--filter-bg-color);
+}
 
 
 /****************************/
+
 
 
 
