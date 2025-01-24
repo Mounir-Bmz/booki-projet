@@ -520,4 +520,27 @@ header {
         align-items: center;
         justify-content: center;
     }
+
+    /* ---------------- RESPONSIVE DESIGN ---------------- */
+
+    .search-filters-title {
+        text-align: left;
+    }
+
+    .search-filters {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.8rem;
+        justify-items: center;
+    }
+
+    .search-filters-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .filters {
+        text-align: center;
+        margin: 2rem 0;
+    }
 }
