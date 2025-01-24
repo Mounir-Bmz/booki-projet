@@ -364,3 +364,64 @@ header {
 @media (max-width: 767.98px) {
     /* ... */
 }
+
+/* ---------------- RESPONSIVE DESIGN ---------------- */
+
+/* MOBILE (max-width: 767.98px) */
+@media (max-width: 767.98px) {
+
+    .main-container {
+        padding: 0;
+    }
+
+    main {
+        padding: 0 2rem;
+    }
+
+    /****** HEADER STYLES **************/
+
+    
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo img {
+        max-width: 5rem;
+        padding: 2rem 0;
+    }
+
+    .nav-menu {
+        width: 100%;
+    }
+
+    .nav-menu ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .nav-menu li {
+        flex: 1;
+        text-align: center;
+    }
+    
+    .nav-menu li a {
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #000000;
+        text-decoration: none;
+        padding: 1.5rem 0;
+        display: block;
+        position: relative;
+    }   
+
+    .nav-link::before {
+        top: auto;
+        bottom: 0;
+    }
+}
