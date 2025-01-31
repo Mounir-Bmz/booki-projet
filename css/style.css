@@ -510,7 +510,7 @@ header {
         padding: 0;
     }
 
-    main {
+    .search {
         padding: 0 2rem;
     }
 
@@ -619,5 +619,35 @@ header {
     .filters {
         text-align: center;
         margin: 2rem 0;
+    }
+
+    /* ---------------- hebergements and populaires ---------------- */
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse; 
+    }
+
+    .populaires {
+        background-color: var(--main-bg-color)!important;
+    }
+
+    .hebergements-and-populaires section {
+        border-radius: 0px;
+        background-color: white;
+    }
+
+    .hebergements, .populaires {
+        width: 100%;
+    }
+
+    .hebergements-cards, .populaires-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .hebergements-cards a, .populaires-cards a {
+        flex: 1 1 100%;
+        width: 100%;
     }
 }
