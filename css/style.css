@@ -155,6 +155,7 @@ a {
 .section-title {
     margin: 0;
     font-size: 22px;
+    font-weight: bold;
 }
 
 .card {
@@ -193,6 +194,7 @@ a {
 header {
     background-color: #FFFFFF;
     border-bottom: 1px solid #F2F2F2;
+    margin-bottom: 4rem;
 }
 
 .header-container {
