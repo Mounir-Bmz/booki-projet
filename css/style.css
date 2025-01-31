@@ -16,6 +16,11 @@ body {
     justify-content: center;
 }
 
+footer{
+    padding: 50px;
+}
+
+
 /****************************/
 
 
@@ -259,7 +264,8 @@ header {
 
 
 
-/****** FILTER-BAR SECTION **************/
+
+
 
 
 
@@ -316,7 +322,7 @@ header {
 
 
 
-/****** HEBERGEMENTS AND POPULAIRES **************/
+/******************************* HEBERGEMENTS AND POPULAIRES **************/
 
 .hebergements-and-populaires {
     display: flex;
@@ -392,7 +398,7 @@ header {
     margin-top: 0.5rem;
 }
 
-/****** POPULAIRES **************/
+/************ POPULAIRES **************/
 
 .populaires {
     width: 32%;
@@ -457,20 +463,20 @@ header {
 
 
 
-/****** RESPONSIVE DESIGN **************/
+/************************** RESPONSIVE DESIGN **********************************/
 
+/* ---------------- RESPONSIVE DESIGN tablets ---------------- */
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
     }
 
-    .hebergements {
+    .hebergements, .populaires {
         width: 100%;
     }
 
     .populaires {
-        width: 100%;
         margin-top: 50px;
     }
 
@@ -493,12 +499,9 @@ header {
     }
 }
 
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
-}
 
-/* ---------------- RESPONSIVE DESIGN ---------------- */
+/* ---------------- RESPONSIVE DESIGN phones ---------------- */
+/* Small devices (phones, less than 768px) */
 
 /* MOBILE (max-width: 767.98px) */
 @media (max-width: 767.98px) {
@@ -595,7 +598,7 @@ header {
         justify-content: center;
     }
 
-    /* ---------------- RESPONSIVE DESIGN ---------------- */
+    /* ---------------- FILTERS ---------------- */
 
     .search-filters-title {
         text-align: left;
