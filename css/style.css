@@ -810,4 +810,15 @@ header {
     .activities-cards img {
         height: 200px;
     }
+
+    /************ FOOTER **************/
+
+    .site-footer{
+        display: grid;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+        width: 100%;
+    }
 }
