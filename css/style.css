@@ -589,6 +589,16 @@ header {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    /************ ACTIVITY SECTION **************/
+
+    .activities-cards {
+        gap: 25px;
+    }
+
+    .activities-cards img {
+        height: 200px;
+    }
 }
 
 
